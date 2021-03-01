@@ -5,12 +5,13 @@ import pandas as pd
 
 #Fleiss's Kappa
 def fleiss_kappa(entities, num_annotators, master, na=False):
-    if (na) & ("NA" not in entities):
-        entities.extend(["NA"]) #Not Annotated Class
+    entities = __entities
+    if (na) & ("NA" not in _entities):
+        _entities.extend(["NA"]) #Not Annotated Class
     
     #Calculate P_c per entity
     P_c_values = []
-    for entity in entities:
+    for entity in _entities:
         #Get Sum of Entity Values (Column)
         _sum = sum(master[entity])
 
@@ -23,10 +24,10 @@ def fleiss_kappa(entities, num_annotators, master, na=False):
         
     #Calculate P_i per Document
     P_i_values = []
-    for index, row in master.loc[:, entities[0]:entities[-1]].iterrows():
+    for index, row in master.loc[:, _entities[0]:_entities[-1]].iterrows():
         #Loop Through Entities
         _squares = []
-        for entity in entities:
+        for entity in _entities:
             #Get Square of Annotation Count
             _square = row[entity]**2
             _squares.append(_square)
