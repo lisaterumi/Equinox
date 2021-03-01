@@ -1,9 +1,10 @@
 # EQUINOX
- 
 [![pypi Version](https://img.shields.io/pypi/v/spacy.svg?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/equinox-gould29/)
+<br>
+
 <img src="./assets/logo.PNG" alt="drawing" width="200"/>
 
-<br><br>
+<br>
 
 Equinox is a powerful and scalable Python library for calculating inter-annotator agreement scores for a variety of Natural Language Processing and Machine Learning tasks.
 
