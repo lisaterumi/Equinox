@@ -1,5 +1,6 @@
 # EQUINOX
  
+[![pypi Version](https://img.shields.io/pypi/v/spacy.svg?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/equinox-gould29/)
 <img src="./assets/logo.PNG" alt="drawing" width="200"/>
 
 <br><br>
