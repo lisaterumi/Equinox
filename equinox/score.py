@@ -5,7 +5,7 @@ import pandas as pd
 
 #Fleiss's Kappa
 def fleiss_kappa(entities, num_annotators, master, na=False):
-    entities = __entities
+    _entities = entities
     if (na) & ("NA" not in _entities):
         _entities.extend(["NA"]) #Not Annotated Class
     

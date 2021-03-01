@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="equinox-gould29", # Replace with your own username
-    version="0.0.3",
+    version="0.0.5",
     author="Justin Gould",
     author_email="gould29@purdue.edu",
     description="Equinox is a powerful and scalable Python library for calculating inter-annotator agreement scores for a variety of Natural Language Processing and Machine Learning tasks.",
