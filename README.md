@@ -19,7 +19,7 @@ More funcionality is currently being built, and will be deployed upon completion
  # Installation
  Equinox can easily be installed via `pip`:
  ```
- pip install equinox
+ pip install equinox-gould29
  ```
 
 # How to Use Equinox
