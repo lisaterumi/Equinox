@@ -1,6 +1,6 @@
 # EQUINOX
-[![pypi Version](https://img.shields.io/pypi/v/spacy.svg?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/equinox-gould29/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/ambv/black)
+<!-- [![pypi Version](https://img.shields.io/pypi/v/spacy.svg?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/equinox-gould29/) -->
+<!-- [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/ambv/black) -->
 <br>
 
 <img src="./assets/logo.PNG" alt="drawing" width="200"/>
@@ -26,14 +26,14 @@ More funcionality is currently being built, and will be deployed upon completion
 Equinox is very simple to use. See our documentation for more information. Below is an example to compute Fleiss's Kappa for > 2 annotators.
 ```
 #Import
-import equinox
+from equinox import score
 
 #Define Input
 entities = ["yes", "no"]
 num_annotators = 10
 df = pd.read_csv("annotated_data.csv") #See below
 
-k = equinox.fleiss_kappa(entities, num_annotators, df)
+k = score.fleiss_kappa(entities, num_annotators, df)
 ## 0.53
 ```
 
