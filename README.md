@@ -1,8 +1,10 @@
 # EQUINOX
  
-![Logo](./assets/logo.png)
+<img src="./assets/logo.PNG" alt="drawing" width="200"/>
 
- Equinox is a powerful and scalable Python library for calculating inter-annotator agreement scores for a variety of Natural Language Processing and Machine Learning tasks.
+<br><br>
+
+Equinox is a powerful and scalable Python library for calculating inter-annotator agreement scores for a variety of Natural Language Processing and Machine Learning tasks.
 
 For example:
  - Fleiss's Kappa: A statistical measure for assessing the reliability of agreement between a fixed number of raters when assigning categorical ratings to a number of items or classifying items.
